@@ -237,7 +237,6 @@
             {#if project.featured}
               <span class="featured-badge">Destacado</span>
             {/if}
-            <span class="year">{project.year}</span>
           </div>
 
           <!-- Body -->
@@ -601,13 +600,6 @@
     padding: 3px 10px;
     border-radius: 99px;
   }
-  .year {
-    margin-left: auto;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    font-family: var(--font-mono);
-  }
-
   .card-title {
     font-size: 1.2rem;
     font-weight: 800;
